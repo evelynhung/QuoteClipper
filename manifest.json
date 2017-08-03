@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "QuoteClipper",
+  "description": "Highlight a segment of text and save it in a local storage for lookup.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/quote.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "browser_action": {
+    "browser_style": false,
+    "default_icon": "icons/icon.png",
+    "default_popup": "popup/popup.html"
+  }
+}
