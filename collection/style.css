@@ -1,0 +1,20 @@
+body {
+    font-size: 20px;
+    font-family: "Open Sans",Arial,"Lucida Grande",sans-serif;
+    color: #777;
+}
+#view-container {
+    padding: 10px;
+}
+.record {
+    margin: 5px;
+}
+.record .url {
+    padding: 5px;
+    background-color: #e8e8e8;
+}
+.record li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 16px;
+}
