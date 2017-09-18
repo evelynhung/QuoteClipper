@@ -23,5 +23,8 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
 // Open collection viewer
 browser.browserAction.onClicked.addListener(() => {
-  window.open('collection/index.html');
+  //window.open("collection/index.html');
+  browser.tabs.create({
+    url: "/collection/index.html"
+  });
 });
